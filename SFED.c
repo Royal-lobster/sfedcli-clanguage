@@ -6,7 +6,7 @@ void simpleFileEncryption()
     printf("\n----------------------------------\n");
     printf("Simple file Encrytion Mode (SFE)");
     printf("\n----------------------------------\n");
-    printf("Please enter your .txt file location to encrypt it: ");
+    printf("Please enter your file location to encrypt it: ");
     scanf("%s", userFileLocation);
 
     FILE *userFile = fopen(userFileLocation, "r");
@@ -37,7 +37,7 @@ void simpleFileDecryption()
     printf("\n----------------------------------\n");
     printf("Simple file Decryption Mode (SFD)");
     printf("\n----------------------------------\n");
-    printf("Please enter your .txt file location to Decrypt it: ");
+    printf("Please enter your file location to Decrypt it: ");
     scanf("%s", userFileLocation);
     FILE *userFile = fopen(userFileLocation, "r");
 
